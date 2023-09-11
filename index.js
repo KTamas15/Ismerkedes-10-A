@@ -1,10 +1,18 @@
 let test = document.body;
 
-let parameter = document.createElement('p');
-parameter.innerText = ('Első parameter szoveg!');
+let tabla = document.createElement("table");
 
+let elsoSor = document.createElement("tr");
 
-test.appendChild(parameter);
+for (let i = 0; i < 4; i++) {
+let tableHead = document.createElement("th");
+tableHead.innerText = `${i}. elem: ${i + 1}`;
+elsoSor.appendChild(tableHead);
+}
+
+tabla.appendChild(elsoSor);
+
+test.appendChild(tabla);
 
 
 
@@ -45,5 +53,5 @@ test.appendChild(parameter);
 
 
 function myFunction() {
-    alert("AZE");
+    alert("https://discord.gg/cyanlife");
 }

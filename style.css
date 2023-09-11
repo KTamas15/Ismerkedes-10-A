@@ -4,14 +4,17 @@
     font-family: 'Fuzzy Bubbles', cursive;
     background-color: lightgray;
     color: green;
-    margin-right: auto;
-    text-decoration: double;
+    margin: auto;
 }
 
 button{
+    display: block;
+    margin-top: 10px;
+    height: 40px;
     color: aqua;
     size: 50px;
     background-color: black;
+    text-decoration: none;
 }
 
 h1{

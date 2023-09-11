@@ -12,6 +12,18 @@ elsoSor.appendChild(tableHead);
 
 tabla.appendChild(elsoSor);
 
+for (let i = 0; i < 10; i++) {
+    let masodik = document.createElement("tr");
+
+for (let j = 0; j < 4; j++) {
+    let tableHead = document.createElement("td");
+    tableHead.innerText = `${j+1}. sor: ${i + 1} elem`;
+    masodik.appendChild(tableHead);
+}
+
+tabla.appendChild(masodik);
+}
+
 test.appendChild(tabla);
 
 

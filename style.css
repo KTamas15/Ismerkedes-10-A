@@ -4,7 +4,6 @@
     font-family: 'Fuzzy Bubbles', cursive;
     background-color: lightgray;
     color: green;
-    text-align: center;
     margin-right: auto;
     text-decoration: double;
 }
@@ -13,4 +12,8 @@ button{
     color: aqua;
     size: 50px;
     background-color: black;
+}
+
+h1{
+    text-align: center;
 }
